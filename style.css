@@ -1,0 +1,398 @@
+.bothside
+/* {
+    overflow: hidden; 
+    background-image: url("image/portfolio/firstback.png");
+}  */
+.row #leftside
+{
+    background-color:#1a1a1a;
+    padding-right: 0;
+    height: 1080px;
+}
+.bothside  .container-fluid
+{
+    margin: 0;
+    padding: 0;
+}
+.bothside .row #line1
+{
+    height: 2px;
+    width: 45px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.bothside #leftside  #line2
+{
+    height: 2px;
+    width: 38px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 10px; 
+}
+.bothside .row #line3
+{
+    height: 2px;
+    width: 45px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+   
+
+}
+.bothside .mediaicon p
+{
+
+  text-transform: uppercase;
+  font-size: 25px;
+  transform: rotate(-90deg);
+  color: #9d9d9d;
+
+}
+#leftside  #social
+{
+margin-top: 60px;
+    
+}
+#leftside   #media
+{
+    margin-top: 60px;
+}
+.row .icon  i{
+    display: block;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+.icon
+{
+    margin-top: 255px;
+}
+.icon i .fa-youtube
+{
+    color: white;
+}
+.bothside #rightside
+{
+  
+   background-image: url("image/bg/first.png");
+   height: 1490px;
+ 
+}
+.row #rightside .nav-item a
+{
+    color: #ababab;
+    font-size: 25px;
+}
+.row #rightside .nav-item a:hover{
+    color: #ff6333;
+}
+.custom-toggler .navbar-toggle {
+    border-color: green; /* Removes border color */
+    float: right; /* Move navbar toggle to left */
+  }
+.custom-toggler  .navbar-toggler-icon {
+    background-color: rgb(60, 125, 168);
+  }
+.row #rightside img{
+    height: 503px;
+    width: 384px;
+    padding-left: 8%;
+    margin-right: 30%;
+    margin-top: 308px;
+    background-image: url("image/my\ image\ back.png");
+}
+.texts  .borders
+{
+    height: 52%;
+    width: 48%;
+    background-color: transparent;
+    border: 2px solid white;
+    z-index: 2;
+    position: absolute;
+    align-items: center; 
+    top: 60%;
+    left: 68%;
+}
+.texts h4
+{
+   color: white;
+   margin: 0;
+   padding: 0;
+   margin-top: 100%;
+   margin-left: 10%;
+   font-size: 20px;
+   z-index: 3;
+
+}
+.texts h5
+{
+   color: white;
+   text-align:left ;
+   /* left: 15%; */
+   position: relative;
+   text-transform: uppercase;
+   margin-top: 10px;
+
+}
+
+.texts h5 span{
+    color: tomato;
+    font-size: 20px;
+    margin-left: 8px;
+  
+}
+.texts h6
+{
+   color: white;
+   left: 10%;
+   position: relative;
+   text-transform: uppercase;
+   font-size: 15px;
+
+}
+.texts h6 span{
+    color: tomato;
+    font-size: 15px;
+}
+
+
+.texts #btn
+{
+    border: 1px solid orange;
+    background: transparent;
+    color: rgb(95, 86, 86);
+    padding: 0 12px;
+    max-width: 85%;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-left: 25%;
+
+}
+.story .row #image{
+    width: 350px;
+    height: 150px;
+    margin: 0;
+    margin-right: 10%;
+    margin-top: 32%;
+    background: transparent;
+}
+
+.row #para3
+{
+    color: black;
+    text-align: justify;
+    max-width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+    transform: none;
+    overflow: hidden;
+}
+.row #para4
+{
+    color: black;
+    text-align: justify;
+    max-width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+    transform: none;
+}
+/* Service Start */
+.service
+{
+    background-image: url("image/bg/last\ bg.png"); 
+}
+.service h3{
+    padding-top: 40px;
+    font-size: 40px;
+    color: #918383;
+}
+.service .btline
+{
+    height:2px;
+    width: 200px;
+    background-color: #ff6333;
+    margin: auto;
+}
+.service #servicepara
+{
+    text-align: justify;
+    max-width: 55.2%;
+    font-size: 20px;
+    margin-left: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #a4a4a4;
+}
+#servicerow
+{
+    margin-left: 15%;
+}
+#servicerow .servicecard
+{
+    max-width: 300px;
+    height: 190px;
+    border: 2px solid rgb(180, 169, 169);
+    overflow: hidden;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#servicerow .servicecard img
+{
+    height: 84px;
+    width: 84px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+}
+#servicerow .servicecard p
+{
+    padding-bottom: 10px;
+    color: #c1c1c1;
+}
+/* service end */
+/* work start */
+.work
+{
+     
+}
+#workrow
+{
+    margin-left: 10%;
+}
+.work h3{
+    padding-top: 40px;
+    color: #ffffff;
+    font-size: 40px;
+}
+.work .btline
+{
+    height:2px;
+    width: 200px;
+    background-color: #ff6333;
+    margin: auto;
+    margin-top: 2px;
+}
+.work #workpara
+{
+    text-align: justify;
+    max-width: 35.2%;
+    font-size: 20px;
+    margin-left: 32%;
+    padding-top: 30px;
+    color: #a4a4a4;
+}
+#workrow .workcard
+{
+    max-width: 28%;
+    max-height: 200px;
+    margin-right: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0;
+}
+#workrow .workcard img
+{
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+}
+.work .row a{
+    border-radius: 15px;
+    padding: 0 10px;
+    /* background-color: #1a1a1a; */
+    margin-right: 10px;
+    text-transform: capitalize;
+    color: #a4a4a4;
+    text-align: center;
+}
+.work button
+{
+    color: #ffffff;
+    background-color: transparent;
+    margin-top: 30px;
+    border-color: #ff6333;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+/* Contact Start */
+.contact
+{
+height: 450px;
+}
+.contact h3{
+    font-size: 40px;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding-top: 30px;
+}
+.contact .btline
+{
+    height:2px;
+    width: 200px;
+    background-color: #ff6333;
+    margin: auto;
+}
+.contact .row{
+    padding-top: 20px;
+}
+.contact input
+{
+    border: 1px solid #9f9f9f;
+    background: transparent;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 5px;
+    margin-top: 10px;
+}
+.contact input::placeholder
+{
+    color: white;
+}
+.contact form  #textdiv textarea
+{
+    height: 120px;
+    width: 55%;
+    border-radius: 3px;
+    background: transparent;
+    border-color: #9f9f9f;
+    padding: 0 5px;
+    
+}
+.contact form  #textdiv textarea::placeholder
+{
+    color: white;
+}
+.contact p{
+    color:#dbc7c4;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.contact #number
+{
+    margin-top: 5px;
+}
+.contact button
+{
+    color: #dbc7c4;
+    background-color: #c13c14;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+/* contact end */
+
+
+ 
